@@ -1,0 +1,78 @@
+body {
+		margin:0;
+        background-size: cover;
+}
+
+h1 {
+        font-weight: bold;
+        margin-bottom: 40px;
+}
+
+h3 {
+        font-style: italic;
+
+}
+header {
+	
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 5px;
+	height: 100%;
+	
+}
+nav ul a {
+	
+}
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 0%;
+    background-color: white;
+    position: fixed;
+    overflow: auto;
+}
+
+article {
+	
+}
+
+footer {
+    margin-top: 50px;
+	padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+.vertical-menu {
+    
+	position: fixed;
+	left:0;
+	width: 20%;
+	
+	overflow: auto;
+}
+
+.vertical-menu a {
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
